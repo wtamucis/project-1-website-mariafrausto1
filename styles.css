@@ -94,18 +94,18 @@ h1 {
 
 .petcare-section {
   display: flex;
-  align-items: center;         /* Vertically centers the text */
-  gap: 30px;                   /* Adds space between image and text */
+  align-items: center;         
+  gap: 30px;                 
   padding: 40px;
 }
 
 .section-image {
-  max-width: 200px;            /* Shrinks image while keeping aspect ratio */
+  max-width: 200px;            
   height: auto;
 }
 
 .section-text {
-  flex: 1;                     /* Allows text to take remaining space */
+  flex: 1;                    
 }
 
 .section-text h2 {
@@ -120,6 +120,11 @@ h1 {
   line-height: 1.6;
 }
 
+.divider {
+  border: none;
+  padding: 2rem 0;
+  border-bottom: 3px solid #edb071;
+}
 
 
 
